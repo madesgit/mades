@@ -179,7 +179,9 @@
          <profile>
                 <id>sonar</id>
                 <activation>
+                       
                        <activationByDefault>true</activationByDefault>
+                       
                 </activation>
                 <properties>
                        <!-- Optional URL server--->
