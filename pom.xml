@@ -188,7 +188,7 @@
                               </sonar.host.url>
                                 </properties>
                 </profile>
-                       </profiles>
+                      
     <profile>
       <id>tomcat90</id>
       <properties>
