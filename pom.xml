@@ -175,16 +175,15 @@
     <cargo.maven.containerUrl>http://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
   </properties>
 
-  <profiles>
-         <profile>
-                <id>sonar</id>
-                           <properties>
-                       <!-- Optional URL server--->
-                       <sonar.host.url>
-                              http://localhost:9000
-                              </sonar.host.url>
-                                </properties>
-                </profile>
+<profiles>
+<profile>
+<id>sonar</id>
+<properties>
+<sonar.host.url>
+http://localhost:9000
+</sonar.host.url>
+</properties>
+</profile>
                       
     <profile>
       <id>tomcat90</id>
