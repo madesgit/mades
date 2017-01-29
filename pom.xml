@@ -178,12 +178,7 @@
   <profiles>
          <profile>
                 <id>sonar</id>
-                <activation>
-                       
-                       <activationByDefault>true</activationByDefault>
-                       
-                </activation>
-                <properties>
+                           <properties>
                        <!-- Optional URL server--->
                        <sonar.host.url>
                               http://localhost:9000
