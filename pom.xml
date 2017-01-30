@@ -54,8 +54,7 @@
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
-  </distributionManagement>
-       <distributionManagement>   
+       
 <snapshotRepository>
        <id>nexus</id>
        <name>Internal Releases</name>
