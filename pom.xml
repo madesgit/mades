@@ -177,7 +177,7 @@
 
 <profiles>
 <profile>
-<id>sonar</id>
+<id>mades</id>
 <properties>
 <sonar.host.url>
 http://localhost:9000
